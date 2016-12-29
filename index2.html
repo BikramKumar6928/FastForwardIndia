@@ -7,6 +7,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Anton|Reenie+Beanie" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Averia+Sans+Libre" rel="stylesheet">
 	<link href="/mycdn/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+	<script src="js/main.js"></script>
 </head>
 
 <body>
@@ -38,26 +40,107 @@
 	</div>
 	<div class="container-fluid" id="container_main">
 		<div class="flex_2">
-            <div class="sidenav">
-                <ul>
-                    <li class="tab active"><a href="#">BloodLine</a></li>
-                    <li class="tab"><a href="#">Disha</a></li>
-                    <li class="tab"><a href="#">Jagrati</a></li>
-                    <li class="tab"><a href="#">Escape</a></li>
-                </ul>
-            </div>
-            <div class="data">
-                
-            </div>
+			<div class="sidenav">
+				<ul>
+					<li onclick="javascript:openBox(0);" class="tab active" style="background: url('includes/bloodline.jpg') no-repeat;background-size:cover;"><a href="">BloodLine</a></li>
+					<li onclick="openBox(1);" class="tab" style="background: url('includes/disha.jpg') no-repeat;background-size:cover;"><a href="">Disha</a></li>
+					<li onclick="openBox(2);" class="tab"><a href="">Jagrati</a></li>
+					<li onclick="openBox(3);" class="tab"><a href="">Escape</a></li>
+				</ul>
+			</div>
+			<div class="data">
+				<div class="data_content" id="0">
+					<div class="data_head">
+						<h2>BloodLine</h2>
+					</div>
+					<div class="data_subhead">
+						<h3>subheading goes here...</h3>
+					</div>
+					<div class="content">
+						<p>
+							No one shall die in Dhanbad for the want of Blood. This has been our motto since the inception of Bloodline. To achieve this,
+							our current objective is to register at least 1,000 new donors in a year by means of donor motivation, promotion of
+							the concept of Voluntary Blood Donation and by repeating Regular Voluntary Blood Donation campaigns.
+						</p>
+					</div>
+					<div class="more">
+						<a href="bloodline.html">Know more..</a>
+					</div>
+				</div>
+				<div class="data_content" id="1">
+					<div class="data_head">
+						<h2>Disha</h2>
+					</div>
+					<div class="data_subhead">
+						<h3>subheading goes here...</h3>
+					</div>
+					<div class="content">
+						<p>
+							This branch of FFI was started with a vision that DISHA will eradicate, the chimera of misinformation and ignorance, so that
+							no student pays the cost because of such things. As in various cases, parents are not well-informed over the current
+							career options and are often misguided. Also, there are cases where due to financial constraints, higher studies aren’t
+							a priority. DISHA provides the students with a medium through which they can explore their options when they complete
+							their 10+2.
+						</p>
+					</div>
+					<div class="more">
+						<a href="disha.html">Know more..</a>
+					</div>
+				</div>
+				<div class="data_content" id="2">
+					<div class="data_head">
+						<h2>Jagrati</h2>
+					</div>
+					<div class="data_subhead">
+						<h3>subheading goes here...</h3>
+					</div>
+					<div class="content">
+						<p>
+							This chapter of ffi was started with a vision to empower underprivilage students with computer education so that they can
+							stand in this changing era of india, also computer education for those people who are diconncted from society and
+							want to change themselves so that they can serve and live in society with selfrespect.
+						</p>
+					</div>
+					<div class="more">
+						<a href="jagrati.html">Know more..</a>
+					</div>
+				</div>
+				<div class="data_content" id="3">
+					<div class="data_head">
+						<h2>Escape</h2>
+					</div>
+					<div class="data_subhead">
+						<h3>subheading goes here...</h3>
+					</div>
+					<div class="content">
+						<p>
+							Through ESCAPE we intend to eleminate the communication barrier amoungst masses from different sects of society and to instill
+							within our students enhanced speaking skills along with a pleasing personality.
+						</p>
+					</div>
+					<div class="more">
+						<a href="escape.html">Know more..</a>
+					</div>
+				</div>
+			</div>
 		</div>
 
 	</div>
 	<div class="about">
-
+		<div class="about_first">
+			<div class="first_childs"></div>
+			<div class="first_childs"></div>
+			<div class="first_childs"></div>
+		</div>
+		<div class="about_second">
+			<div class="second_childs"></div>
+			<div class="second_childs"></div>
+			<div class="second_childs"></div>
+		</div>
 	</div>
 	<script src="/mycdn/jquery.min.js"></script>
 	<script src="/mycdn/Bootstrap/dist/js/bootstrap.min.js"></script>
-	<script src="js/main.js"></script>
+
 </body>
 
 </html>
